@@ -1,0 +1,67 @@
+.TopCompany {
+    width: 99vw;
+    height: 60vh;
+}
+
+.TopCompanyBox {
+    width: 100%;
+    height: 100%;
+    padding: 0 5% 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.TopCompanyHeading {
+    width: 90%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, #009 0.15%, #004EA8 99.91%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-family: Red Hat Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 135%;
+    /* 54px */
+}
+
+.TopCompanyRow1 {
+    width: 90%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.TopCompany1 {
+    width: 23%;
+    height: 40%;
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.30);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 135%;
+    color: rgb(8, 6, 6);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.TopCompanyLogoImg{
+    width: 90%;
+    height: 90%;
+    padding: 5%;
+}
+@media (max-width:100vw) {
+    .TopCompany {
+        width: 100vw;
+    }
+}
